@@ -1,0 +1,31 @@
+{
+  "name": "spider-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/iamwangkj/node-spider-snippets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "dayjs": "^1.9.8",
+    "jsonfile": "^6.1.0",
+    "log4js": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
