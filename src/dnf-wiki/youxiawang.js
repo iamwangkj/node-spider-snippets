@@ -31,6 +31,10 @@ async function getOneData(zbIndex = 1) {
 }
 
 
+
+// getOneData()
+
+
 async function main() {
   const resList = [] // 存放结果的数组
   let isEnd = false
@@ -57,4 +61,4 @@ async function main() {
 
 }
 
-main()
+// main()
