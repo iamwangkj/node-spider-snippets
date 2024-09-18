@@ -2,7 +2,7 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 const {
   saveJson
-} = require('../utils/jsonFile')
+} = require('../../utils/jsonFile')
 
 
 function transformToPercent(num) {
@@ -53,7 +53,7 @@ async function main() {
   } catch (err) {
 
   } finally {
-    await saveJson(resList, `${__dirname}/data-json/youxiawang-zb.json`)
+    await saveJson(resList, `${__dirname}/saveData/youxiawang-zb.json`)
   }
 
 
